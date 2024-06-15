@@ -1,0 +1,289 @@
+body {
+    font-family: Arial, sans-serif;
+   height: auto;
+   width: 700px;
+   
+  
+  }
+  #backgroundVideo {
+    position: fixed;
+    transform: translate(0px,100px);
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -10; /* Pour placer la vidéo en arrière-plan */
+}
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    transform: translate(300px, -20px);
+    width: 1000px; /* Largeur initiale du conteneur */
+    height: 1500px; /* Hauteur initiale du conteneur */
+    border: 1px solid #000000;
+    margin: 40px;
+    overflow: hidden;
+    z-index: 10;
+margin-bottom: 14%;  }
+ 
+  .inner-rectangle {
+    width: 43%; /* Largeur du rectangle */
+    height: 1550px; /* Hauteur du rectangle */
+    background-color: #000000; /* Couleur du rectangle */
+    position: absolute;
+    top: 0px; 
+    left: -7px;
+    z-index: -1;
+    
+  }
+
+
+  .profile-picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 160px;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+    right: 100px;
+    position: absolute;
+    top: 10px;  
+    transform: translate(20px, 20px); /* Ajuste la position pour être centrée */
+  }
+    
+
+  
+  .nom {
+    font-size: 45px;
+    font-style: italic;
+    color: #000000;
+    transform: translate(520px, 1px); /* Ajuste la position pour être centrée */
+    font-weight: 470;
+    font-family: Comic Sans MS, Comic Sans, cursive	;
+    width: auto;
+    padding-left: 3%;
+    position: absolute;
+    top: 10px;
+    
+
+  }
+  .fil {
+    font-size: 28px;
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    color: rgb(0, 0, 0);
+    transform: translate(490px, 1px); /* Ajuste la position pour être centrée */
+    font-weight: 160;
+    font-family:  'Trattatello', Arial, sans-serif;
+    text-decoration: underline;
+  }
+  .about{
+    font-size: 24px;
+    color: rgb(239, 239, 239);
+    transform: translate(420px, 33px); /* Ajuste la position pour être centrée */
+    font-weight: 100;
+    font-family:  'Trattatello', Arial, sans-serif;
+    border: 3px ridge rgb(34, 34, 34);
+    background-color: #000000;
+    width: 90px;
+    position: absolute;
+    top: 150px;
+    border-radius: 13%;
+    padding-left: 10px;
+
+  }
+  .me{
+    color: #000001;
+    width: 610px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: translate(420px, 33px); /* Ajuste la position pour être centrée */
+width: 570px;
+position: absolute;
+top: 230px; right: 430px; }
+.Contact_info{
+  color: white;
+  font-family: 'Comic Sans MS';
+  transform: translate(100px, 40px); /* Ajuste la position pour être centrée */
+  position: absolute;
+  top: 330px;
+}
+
+.competance{
+  width: 460px;
+  height: auto;
+  color: white;
+  transform: translate(120px, 0px); /* Ajuste la position pour être centrée */
+  position: absolute;
+  top: 690px;
+}
+
+.langue{
+  color: white;
+  transform: translate(100px, 20px);
+  position: absolute;
+  top: 1200px;
+}
+
+.Contact_info h2, .competance h2, .langue h2{
+  transform: translate(-20px, -10px); /* Ajuste la position pour être centrée */
+  border: 1px ridge cornsilk;
+  border-radius: 33px;
+  padding-left: 20px;
+  width: 260px;
+  background-color: #000000;
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+  font-family: 'Chalkduster';
+  font-size: 20px;
+  text-align: center;
+  padding-right: 6%;
+  position: absolute;
+  top: -60px;
+}
+
+.phone-icon,
+.map-icon,
+.email-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-right: 40px; /* Marge entre les icônes */
+}
+
+.map-icon {
+    background-color: #000000; /* Couleur pour l'icône du téléphone portable */
+    color: white;
+    transform: translate(-60px, -178px); /* Ajuste la position pour être centrée */
+
+  
+}
+
+.phone-icon {
+    background-color: #000000; /* Couleur pour l'icône de la position sur la carte */
+    color: white;
+    transform: translate(-60px, -70px); /* Ajuste la position pour être centrée */
+
+}
+
+.email-icon {
+    background-color: #000000; /* Couleur pour l'icône de l'adresse e-mail */
+    color: rgb(255, 253, 253);
+    transform: translate(-60px, -63px); /* Ajuste la position pour être centrée */
+
+}
+.phone{
+  font-size: 20px ;
+  transform: translate(-10px, 25px); /* Ajuste la position pour être centrée */
+}
+.email{
+  transform: translate(-10px, 60px); /* Ajuste la position pour être centrée */
+}
+a{
+  color: azure;
+}
+
+table {
+  width: 85%;
+  border-spacing: 100px;
+  border-collapse: collapse;
+  transform: translate(-80px, 0px); /* Ajuste la position pour être centrée */
+
+}
+tr:hover {background-color: rgb(123, 205, 0);}
+.about:hover {background-color: rgb(0, 205, 99);}
+.ang:hover ,.fr:hover,.arabe:hover{background-color: rgb(0, 0, 0);}
+
+/* Appliquer un style aux éléments de la liste */
+.ligne li {
+  margin-bottom: -12px; /* Réduire la marge entre les éléments de la liste */
+}
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: auto;  
+  width: auto;
+}
+.p,.l,.b{
+  font-family: 'Marker Felt';
+  font-size: 19px;
+
+}
+.lang{
+  font-family: 'Chalkduster';
+  transform: translate(0px, 0px); /* Ajuste la position pour être centrée */
+  border: 2px solid white;
+  border-radius: 35px;
+  text-align: center;
+  padding-top: 3px;
+  width: 200px;
+  height:  30px;
+  background-color: rgb(0, 0, 0);
+}
+
+.langue li{
+  transform: translate(-90px, 0px); /* Ajuste la position pour être centrée */
+  font-weight: 200;
+}
+
+.translate{
+  font-size: larger;
+  font-family: 'Courier', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transform: translate(40px, -10px); 
+}
+ul.a{ 
+  list-style-type: circle;
+}
+.forma{
+  transform: translate(430px, 90px); 
+  position: absolute;
+top: 450px;
+font-size: 19px;
+width: 560px;
+}
+.auto{
+  transform: translate(430px, 950px); 
+  font-size: 19px;
+  width: 560px;
+}
+.ato{
+  font-size: 22px;
+  font-weight: bold;
+  font-family: cursive, 'Times New Roman', Times, serif;
+}
+.pla{
+  font-size: 20px;
+  font-family:  'Times New Roman', Times, serif;
+}
+.s{
+  transform: translate(300px, 950px); 
+
+}
+.formation , .auto_formation {
+  width: 150px;
+  color: #ffffff;
+  font-family: 'Comic Sans MS', Courier, monospace;
+  text-align: center;
+  transform: translate(630px, 70px); /* Ajuste la position pour être centrée */
+  border: 2px solid black;
+  background-color: #000000;
+  box-shadow: 0 0 30px rgb(0, 0, 0);
+  border-radius: 38px;
+  font-size: 20px;
+  position: absolute;
+ top: 400px;
+
+}
+.auto_formation {
+  width:240px ;
+  transform: translate(584px, 130px); /* Ajuste la position pour être centrée */
+  position: absolute;
+  top: 750px;
+}

@@ -1,0 +1,332 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 1000px;
+    
+}
+#backgroundVideo {
+    position: absolute;
+    transform: translate(0px,100px);
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Pour placer la vidéo en arrière-plan */
+}
+::selection{
+    color: #ffffff;
+    background: #1641eb;
+  }
+  .container{
+    max-width: 1500px;
+    min-width: 1500px;
+    height:auto;
+    background: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    border-radius: 28px;
+    padding: 50px 35px 10px 35px;
+    box-sizing: border-box;
+    transform: translate(340px,90px);
+    box-shadow: 0 0 50px rgb(11, 5, 202);
+
+  }
+  .container header{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: Marker Felt, fantas;
+    margin: 0 0 30px 0;
+    color: #1641eb;
+  }
+  .container .form-outer{
+    width: 100%;
+    overflow: hidden;
+  }
+  .container .form-outer form{
+    display: flex;
+    width: 580%;
+  }
+  .form-outer form .page{
+    width: 16.666%;
+    height: auto;
+    transition: margin-left 0.3s ease-in-out;
+  }
+  .form-outer form .page .title{
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 25px;
+    font-weight: 500;
+    transform: translate(80px,0px);
+
+  }
+  .formationField,.autoformationField{
+    padding-top: 3%;
+    width: 1300px;
+    font-size: bold;
+    height: auto;
+    
+    display: flex;
+    justify-items: center;
+    position: relative;
+    margin-left: 2%;
+    transform: translate(20px,40px);
+
+  }
+  .fieldcomp{
+    width: 900px;
+    height: auto;
+    transform: translate(330px,40px);
+    display: flex;
+    justify-items: center;
+    position: relative;
+    margin-left: 5%;
+  }
+  .fieldcomp label{
+   font-weight: bold;
+   font-size: 17px;
+    transform: translate(-17px,0px);
+   margin-left: 1%;
+  }
+  .fieldcomp select, .fieldcomp input {
+    font-weight: bold;
+    width: auto;
+    font-size: 17px;
+     transform: translate(-17px,0px);
+    margin-left: 2%;
+    background-color: rgb(255, 255, 255,0.68);
+    border-radius: 30px;
+  }
+  .fieldlang input{
+    margin-top: 3.3%;
+    margin-right: 1%;
+    font-weight: bold;
+      width: auto;
+      font-size: 17px;
+      transform: translate(-17px,0px);
+      margin-left: 2%;
+      background-color: rgb(255, 255, 255,0.68);
+      border-radius: 30px;
+  }
+  .fieldlang select{
+    font-weight: bold;
+      width: auto;
+      font-size: 17px;
+      transform: translate(-17px,0px);
+      margin-left: 2%;
+      background-color: rgb(255, 255, 255,0.68);
+      border-radius: 30px;
+  }
+  
+
+
+
+  .form-outer form .page .field{
+    width: 600px;
+    height: 35px;
+    margin: 40px 0;
+    display: flex;
+    justify-items: center;
+    position: relative;
+    margin-left: 5%;
+  }
+  .formationField .label{
+    text-align: center;
+    width: 200px;
+ 
+  }
+  .formationField input , .autoformationField input{
+   
+   height: 33px;
+   width: 90%;
+   margin-left: 1%;
+   border-radius: 35px;
+   padding-left: 15px;
+   font-size: 17px;
+   background-color: rgb(255, 255, 255,0.8);
+  }
+  .ajouterChamp{
+    cursor: pointer;
+    transform: translate(40px,0px);
+
+  }
+  form .page .field .label{
+    position: absolute;
+    top: -30px;
+    font-weight: 500;
+  }
+  h4 {
+    display: flex;
+    margin-block-start: 3%;
+  
+    font-weight: bold;
+}
+ 
+
+  form .page .field input{
+    height: auto;
+    width: 180%;
+    margin-left: 10%;
+    border-radius: 35px;
+    padding-left: 15px;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255,0.8);
+  }
+ 
+  form .page .field select{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  form .page .field button{
+    width: auto;
+    height: 50px;
+    border: none;
+    background: #000000;
+    margin-top: -20px;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    transform: translate(580px,40px);
+
+  }
+  form .page .field button:hover{
+    background: #0f2ade;
+  }
+  form .page .btns button{
+    margin-top: -20px!important;
+  }
+  form .page .btns button.prev{
+    margin-right: 3px;
+    font-size: 17px;
+    width: auto;
+    
+  }
+  form .page .btns button.next{
+    margin-left: 3px;
+  }
+  .container .progress-bar{
+    display: flex;
+    margin: 40px 0;
+    user-select: none;
+  }
+  .container .progress-bar .step{
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
+  .container .progress-bar .step p{
+    font-weight: 500;
+    font-size: 18px;
+    font-family:  Comic Sans MS, Comic Sans, cursive;
+    color: #ffffff;
+    margin-bottom: 8px;
+  }
+  .progress-bar .step .bullet{
+    height: 25px;
+    width: 25px;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    transition: 0.2s;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .progress-bar .step .bullet.active{
+    border-color: #0038c7;
+    background: #1133be;
+  }
+  .progress-bar .step .bullet span{
+    position: absolute;
+    color: #ffffff;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .progress-bar .step .bullet.active span{
+    display: none;
+  }
+  .progress-bar .step .bullet:before,
+  .progress-bar .step .bullet:after{
+    position: absolute;
+    content: '';
+    bottom: 11px;
+    right: -51px;
+    height: 3px;
+    width: 210px;
+    background: #ffffff;
+    transform: translate(160px,0px);
+  }
+  .progress-bar .step .bullet.active:after{
+    background: #0d33dc;
+    transform: scaleX(0);
+    transform-origin: left;
+    transform: translate(160px,0px);
+
+  }
+ 
+  .progress-bar .step:last-child .bullet:before,
+  .progress-bar .step:last-child .bullet:after{
+    display: none;
+  }
+  .progress-bar .step p.active{
+    color: #202eea;
+    transition: 0.2s linear;
+    font-weight: 500;
+  }
+  .progress-bar .step .check{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  .progress-bar .step .check.active{
+    display: block;
+    color: #fff;
+  }
+  .gg-add {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    transform: scale(var(--ggs,1));
+    border-radius: 22px
+   }
+   
+   .gg-add::after,
+   .gg-add::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 5px;
+    top: 8px;
+    left: 4px
+   }
+   
+   .gg-add::after {
+    width: 2px;
+    height: 10px;
+    top: 4px;
+    left: 8px
+   } 
